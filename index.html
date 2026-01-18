@@ -262,7 +262,15 @@
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
         import { getFirestore, collection, addDoc, getDocs, query, where, updateDoc, doc, increment, orderBy, limit } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js";
 
-        // ⚠️⚠️⚠️ ใส่ Firebase Config ของคุณตรงนี้ ⚠️⚠️⚠️
+        const firebaseConfig = {
+  apiKey: "AIzaSyBPKWKDSatPSVvBbpWG71Yi5-7lmret4PQ",
+  authDomain: "mheerecycle.firebaseapp.com",
+  projectId: "mheerecycle",
+  storageBucket: "mheerecycle.firebasestorage.app",
+  messagingSenderId: "1027251878904",
+  appId: "1:1027251878904:web:5b4dd51fc3af8d0b6ef40d",
+  measurementId: "G-DK4Z0B4H3R"
+};
         const firebaseConfig = {
             apiKey: "YOUR_API_KEY",
             authDomain: "YOUR_PROJECT.firebaseapp.com",
